@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="en" style="scroll-behavior: smooth;">
 <head>
     <title>Home</title>
     <meta name="format-detection" content="telephone=no">
@@ -61,34 +61,27 @@
                                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
                                     <span></span></button>
                                 <!-- RD Navbar Brand-->
-                                <div class="rd-navbar-brand"><a class="brand" href="index.html"><img
-                                        src="images/customized/logo.jpg" alt="" height="50"/></a></div>
+                                <div class="rd-navbar-brand"><a class="brand" href="index.html">
+                                    <img
+                                            src="images/customized/logo.jpg" alt="" height="50"/>
+                                     <img
+                                            src="images/customized/wechat_mini-program_qrcode.png" alt=""
+                                            height="50"/>
+                                </a></a></div>
                             </div>
                             <div class="rd-navbar-main-element">
                                 <div class="rd-navbar-nav-wrap">
                                     <!-- RD Navbar Share-->
-                                    <div class="rd-navbar-share fl-bigmug-line-share27"
-                                         data-rd-navbar-toggle=".rd-navbar-share-list">
-                                        <ul class="list-inline rd-navbar-share-list">
-                                            <li class="rd-navbar-share-list-item">
-                                                <img src="./images/customized/wechat_official.jpg"
-                                                     alt=""/>
-                                            </li>
-                                            <li class="rd-navbar-share-list-item">
-                                                <img src="./images/customized/wechat_mini-program.png" alt=""/>
-                                            </li>
-                                        </ul>
-                                    </div>
                                     <ul class="rd-navbar-nav">
                                         <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">首页</a></li>
-                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#services">家长请家教</a>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#services">我们的服务</a>
                                         </li>
-                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#projects">教员做家教</a>
-                                        </li>
-                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#team">团队介绍</a></li>
-                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#news">平台公告</a></li>
-                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">联系我们</a>
-                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link"
+                                                                   href="#projects">家长请家教&教员做家教</a></li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link"
+                                                                   href="#develop history">平台发展历程</a></li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link"
+                                                                   href="#jumpToContact">联系我们</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -102,15 +95,19 @@
         <section class="section swiper-container swiper-slider swiper-slider-classic" data-loop="true"
                  data-autoplay="4859" data-simulate-touch="true" data-direction="vertical" data-nav="false">
             <div class="swiper-wrapper text-center" style="color: white !important;">
-                <div class="swiper-slide" data-slide-bg="images/customized/slide1.jpg">
+                <div class="swiper-slide">
+                    <video class="swiper-video" id="slide1" autoplay muted loop playsinline>
+                        <source src="images/customized/slide1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                     <div class="swiper-slide-caption section-md">
                         <div class="container">
-                            <h1 data-caption-animate="fadeInLeft" data-caption-delay="0" style="color: white !important; font-size: 120px; font-weight: bolder; letter-spacing: 18px;">优质高效 精益求精</h1>
+                            <h1 class="gradientText">优质高效 精益求精</h1>
                             <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">
                                 我们以卓越的服务为核心，<br>不断优化每一处细节。<br>严选教员、精准匹配，<br>让每一次教学都能高效提升孩子的学习效果，<br>用专业和专注赢得家长的信赖。
                             </p>
-                            <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal"
-                               data-caption-animate="fadeInUp" data-caption-delay="200">联系我们</a>
+                            <a class="button button-primary button-ujarak" href="#jumpToContact"
+                               data-caption-delay="200">联系我们</a>
                         </div>
                     </div>
                 </div>
@@ -122,12 +119,14 @@
                     </video>
                     <div class="swiper-slide-caption section-md">
                         <div class="container">
-                            <h1 data-caption-animate="fadeInLeft" data-caption-delay="0" style="color: white !important; font-size: 120px; font-weight: bolder; letter-spacing: 18px;">匠心独运 有口皆碑</h1>
+                            <h1 class="gradientText">
+                                匠心独运 有口皆碑</h1>
                             <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">
                                 在每一次师生牵手中，<br>我们倾注匠心，<br>打造独具温度的家教服务。<br>通过无数家长与学生的好评相传，<br>我们成为连接知识与梦想的桥梁。
                             </p>
-                            <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal"
-                               data-caption-animate="fadeInUp" data-caption-delay="200">联系我们</a>
+                            <a class="button button-primary button-ujarak" href="#jumpToContact"
+                               data-caption-delay="200">联系我们</a>
+
                         </div>
                     </div>
                 </div>
@@ -139,12 +138,14 @@
                     </video>
                     <div class="swiper-slide-caption section-md">
                         <div class="container">
-                            <h1 data-caption-animate="fadeInLeft" data-caption-delay="0" style="color: white !important; font-size: 120px; font-weight: bolder; letter-spacing: 18px;">至精至诚 臻于至善</h1>
+                            <h1 class="gradientText">
+                                至精至诚 臻于至善</h1>
                             <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">
                                 以专业为本，以真诚为心，<br>我们用行动诠释责任与担当。<br>始终追求极致，用心打磨每一份服务，<br>让教育的力量温暖每个家庭，成就美好未来。
                             </p>
-                            <a class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal"
-                               data-caption-animate="fadeInUp" data-caption-delay="200">联系我们</a>
+                            <a class="button button-primary button-ujarak" href="#jumpToContact"
+                               data-caption-delay="200">联系我们</a>
+
                         </div>
                     </div>
                 </div>
@@ -167,45 +168,50 @@
     <section class="section section-sm section-first bg-default text-center" id="services">
         <div class="container">
             <div class="row row-30 justify-content-center">
-                <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp"><img src="images/index-1-415x592.png"
-                                                                                       alt="" width="415" height="592"/>
+                <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp"><img
+                        src="images/customized/see_all_services_left_photo.webp"
+                        alt=""
+                        style="width: auto; height: 750px; object-fit: cover;"/>
                 </div>
                 <div class="col-lg-7 col-xl-6">
                     <div class="row row-30">
                         <div class="col-sm-6 wow fadeInRight">
                             <article class="box-icon-modern box-icon-modern-custom">
                                 <div>
-                                    <h3 class="box-icon-modern-big-title">What We Offer</h3>
+                                    <h3 class="box-icon-modern-big-title">我们的服务</h3>
                                     <div class="box-icon-modern-decor"></div>
-                                    <a class="button button-primary button-ujarak" href="#">View All Services</a>
+                                    <a class="button button-primary button-ujarak" href="#jumpToContact">联系我们</a>
                                 </div>
                             </article>
                         </div>
                         <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
                             <article class="box-icon-modern box-icon-modern-2">
                                 <div class="box-icon-modern-icon linearicons-phone-in-out"></div>
-                                <h5 class="box-icon-modern-title"><a href="#">CORPORATE<br>SOLUTIONS</a></h5>
+                                <h5 class="box-icon-modern-title"><a href="#jumpToContact">安全可靠的师资团队<br>家长放心的选择</a>
+                                </h5>
                                 <div class="box-icon-modern-decor"></div>
-                                <p class="box-icon-modern-text">Need specific software for your company? We are ready to
-                                    develop it!</p>
+                                <p class="box-icon-modern-text">平台严格筛选教员，覆盖全国，汇聚数万在校大学生、数千一线中小学名师及机构专职老师。
+                                    所有教员均通过实名认证，为您提供安全、可信的教学保障。</p>
                             </article>
                         </div>
                         <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
                             <article class="box-icon-modern box-icon-modern-2">
                                 <div class="box-icon-modern-icon linearicons-headset"></div>
-                                <h5 class="box-icon-modern-title"><a href="#">CALL CENTER<br>SOLUTIONS</a></h5>
+                                <h5 class="box-icon-modern-title"><a href="#jumpToContact">一对一精准匹配<br>服务高效便捷</a>
+                                </h5>
                                 <div class="box-icon-modern-decor"></div>
-                                <p class="box-icon-modern-text">Our experts provide custom products of any complexity
-                                    for call centers.</p>
+                                <p class="box-icon-modern-text">无论是提升成绩还是培养特长，平台致力于高效连接家长与教员，快速找到最契合需求的家教老师。
+                                    专注一对一家教服务，让孩子学习更高效，家长更省心。</p>
                             </article>
                         </div>
                         <div class="col-sm-6 wow fadeInRight" data-wow-delay=".3s">
                             <article class="box-icon-modern box-icon-modern-2">
                                 <div class="box-icon-modern-icon linearicons-outbox"></div>
-                                <h5 class="box-icon-modern-title"><a href="#">CLOUD<br>DEVELOPMENT</a></h5>
+                                <h5 class="box-icon-modern-title"><a href="#jumpToContact">双向赋能<br>拓宽教与学的边界</a>
+                                </h5>
                                 <div class="box-icon-modern-decor"></div>
-                                <p class="box-icon-modern-text">We can also offer you reliable cloud development
-                                    solutions.</p>
+                                <p class="box-icon-modern-text">家长和孩子轻松找到满意的教学资源，大学生与专业教师也能通过平台获取更多兼职及职业提升的机会。
+                                    服务多方需求，搭建共赢桥梁，开启教育新体验。</p>
                             </article>
                         </div>
                     </div>
@@ -216,18 +222,14 @@
 
     <!-- Cta-->
     <section class="section section-fluid bg-default">
-        <div class="parallax-container" data-parallax-img="images/parallax-1.jpg">
+        <div class="parallax-container" data-parallax-img="images/customized/cta_background_image.webp">
             <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay">
                 <div class="container">
                     <div class="row row-30 justify-content-end text-right">
-                        <div class="col-sm-7">
-                            <h3 class="wow fadeInLeft">Let's Develop Your Next Great App!</h3>
-                            <p>Do you need a unique software solution for your company? We know how to help you!</p>
-                            <div class="group-sm group-middle group justify-content-end"><a
-                                    class="button button-primary button-ujarak" href="#modalCta" data-toggle="modal">Get
-                                in Touch</a><a class="button button-white-outline button-ujarak" href="#">Learn More</a>
-                            </div>
-                        </div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -237,44 +239,129 @@
     <!-- Latest Projects-->
     <section class="section section-sm section-fluid bg-default text-center" id="projects">
         <div class="container-fluid">
-            <h2 class="wow fadeInLeft">Latest Projects</h2>
-            <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">In our portfolio, you can browse the latest
-                products developed for our clients for different corporate purposes. Our qualified team of interface
-                designers and software developers is always ready to create something unique for you.</p>
+            <h1 class="wow fadeInLeft">我们的服务范围</h1>
+            <br>
             <div class="isotope-filters isotope-filters-horizontal">
                 <button class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha"
-                        data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true"
-                        data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Filter
+                        data-custom-toggle=".isotope-filters-list" data-custom-toggle-hide-on-blur="true"
+                        data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>筛选您想要了解的地区
                 </button>
-                <ul class="isotope-filters-list" id="isotope-3">
-                    <li><a class="active" href="#" data-isotope-filter="*" data-isotope-group="gallery">All</a></li>
-                    <li><a href="#" data-isotope-filter="Type 1" data-isotope-group="gallery">mobile Apps</a></li>
-                    <li><a href="#" data-isotope-filter="Type 2" data-isotope-group="gallery">Custom Software</a></li>
-                    <li><a href="#" data-isotope-filter="Type 3" data-isotope-group="gallery">QA & Testing</a></li>
-                    <li><a href="#" data-isotope-filter="Type 4" data-isotope-group="gallery">UX and Design</a></li>
+                <ul class="isotope-filters-list" id="isotope-3"
+                    style="max-width: 1300px; margin: 0 auto; font-size: 24px;">
+                    <li><a class="active" href="#jumpToContact" data-isotope-filter="*"
+                           data-isotope-group="gallery">全部</a></li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type 1" data-isotope-group="gallery">北京市</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type 2" data-isotope-group="gallery">天津市</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type 3" data-isotope-group="gallery">河北省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type 4" data-isotope-group="gallery">山西省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type 5"
+                           data-isotope-group="gallery">内蒙古自治区</a></li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type 6" data-isotope-group="gallery">辽宁省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type 7" data-isotope-group="gallery">吉林省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type 8" data-isotope-group="gallery">黑龙江省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type 9" data-isotope-group="gallery">上海市</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type A" data-isotope-group="gallery">江苏省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type B" data-isotope-group="gallery">浙江省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type C" data-isotope-group="gallery">安徽省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type D" data-isotope-group="gallery">福建省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type E" data-isotope-group="gallery">江西省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type F" data-isotope-group="gallery">山东省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type G" data-isotope-group="gallery">河南省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type H" data-isotope-group="gallery">湖北省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type I" data-isotope-group="gallery">湖南省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type J" data-isotope-group="gallery">广东省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type K"
+                           data-isotope-group="gallery">广西壮族自治区</a></li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type L" data-isotope-group="gallery">海南省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type M" data-isotope-group="gallery">重庆市</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type N" data-isotope-group="gallery">四川省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type O" data-isotope-group="gallery">贵州省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type P" data-isotope-group="gallery">云南省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type Q"
+                           data-isotope-group="gallery">西藏自治区</a></li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type R" data-isotope-group="gallery">陕西省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type S" data-isotope-group="gallery">甘肃省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type T" data-isotope-group="gallery">青海省</a>
+                    </li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type U"
+                           data-isotope-group="gallery">宁夏回族自治区</a></li>
+                    <li><a href="#jumpToContact" data-isotope-filter="Type V"
+                           data-isotope-group="gallery">新疆维吾尔自治区</a></li>
+
                 </ul>
             </div>
             <div class="row row-30 isotope" data-isotope-layout="fitRows" data-isotope-group="gallery"
                  data-lightgallery="group">
-                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 4">
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight">
 
+                    <article class="thumbnail thumbnail-classic thumbnail-md">
+                        <div class="thumbnail-classic-figure"><img
+                                src="images/customized/wechat_mini-program_qrcode_with_text.png" alt=""
+                                width="420" height="350"/>
+                        </div>
+                        <div class="thumbnail-classic-caption">
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
+                                                                         href="images/grid-gallery-1-1200x800-original.jpg"
+                                                                         data-lightgallery="item"><img
+                                    src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420" height="350"/></a>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
+                            </div>
+                            <p class="thumbnail-classic-text">
+                                家长请家教：联系赵老师 13126865796<br>
+                                教员做家教：联系洪老师 13391604565<br>
+                                商务合作：刘老师 13381331289</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1">
                     <article class="thumbnail thumbnail-classic thumbnail-md">
                         <div class="thumbnail-classic-figure"><img src="images/customized/Beijing.png" alt=""
                                                                    width="420" height="350"/>
                         </div>
                         <div class="thumbnail-classic-caption">
-                            <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
                                                                          href="images/grid-gallery-1-1200x800-original.jpg"
                                                                          data-lightgallery="item"><img
                                     src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420" height="350"/></a>
-                                <h5 class="thumbnail-classic-title"><a href="#">FinStep</a></h5>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
                             </div>
-                            <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features
-                                with great UI that you won’t find anywhere else.</p>
+                            <p class="thumbnail-classic-text">
+                                家长请家教：联系赵老师 13126865796<br>
+                                教员做家教：联系洪老师 13391604565<br>
+                                商务合作：刘老师 13381331289</p>
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1"
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 2"
                      data-wow-delay=".1s">
 
                     <article class="thumbnail thumbnail-classic thumbnail-md">
@@ -282,131 +369,212 @@
                                                                    width="420" height="350"/>
                         </div>
                         <div class="thumbnail-classic-caption">
-                            <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
                                                                          href="images/grid-gallery-2-1200x800-original.jpg"
                                                                          data-lightgallery="item"><img
                                     src="images/fullwidth-gallery-2-420x350.jpg" alt="" width="420" height="350"/></a>
-                                <h5 class="thumbnail-classic-title"><a href="#">Mobile Finance</a></h5>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
                             </div>
-                            <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features
-                                with great UI that you won’t find anywhere else.</p>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">
+                                天津地区负责老师：<br>颜老师 18902175721</p>
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 2"
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type C"
                      data-wow-delay=".2s">
 
                     <article class="thumbnail thumbnail-classic thumbnail-md">
-                        <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-3-420x350.jpg" alt=""
+                        <div class="thumbnail-classic-figure"><img src="images/customized/Hefei.png" alt=""
                                                                    width="420" height="350"/>
                         </div>
                         <div class="thumbnail-classic-caption">
-                            <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
                                                                          href="images/grid-gallery-3-1200x800-original.jpg"
                                                                          data-lightgallery="item"><img
                                     src="images/fullwidth-gallery-3-420x350.jpg" alt="" width="420" height="350"/></a>
-                                <h5 class="thumbnail-classic-title"><a href="#">Q-Manage</a></h5>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
                             </div>
-                            <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features
-                                with great UI that you won’t find anywhere else.</p>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">合肥地区负责老师：<br>张老师
+                                19822045567</p>
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 3"
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type F"
                      data-wow-delay=".3s">
 
                     <article class="thumbnail thumbnail-classic thumbnail-md">
-                        <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-4-420x350.jpg" alt=""
+                        <div class="thumbnail-classic-figure"><img src="images/customized/Jinan.png" alt=""
                                                                    width="420" height="350"/>
                         </div>
                         <div class="thumbnail-classic-caption">
-                            <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
                                                                          href="images/grid-gallery-4-1200x800-original.jpg"
                                                                          data-lightgallery="item"><img
                                     src="images/fullwidth-gallery-4-420x350.jpg" alt="" width="420" height="350"/></a>
-                                <h5 class="thumbnail-classic-title"><a href="#">WeatherCast</a></h5>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
                             </div>
-                            <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features
-                                with great UI that you won’t find anywhere else.</p>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">济南地区负责老师：<br>马老师
+                                15508697965</p>
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3">
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 7">
 
                     <article class="thumbnail thumbnail-classic thumbnail-md">
-                        <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-5-420x350.jpg" alt=""
+                        <div class="thumbnail-classic-figure"><img src="images/customized/Changchun.png" alt=""
                                                                    width="420" height="350"/>
                         </div>
                         <div class="thumbnail-classic-caption">
-                            <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
                                                                          href="images/grid-gallery-5-1200x800-original.jpg"
                                                                          data-lightgallery="item"><img
                                     src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350"/></a>
-                                <h5 class="thumbnail-classic-title"><a href="#">Home Calendar</a></h5>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
                             </div>
-                            <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features
-                                with great UI that you won’t find anywhere else.</p>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">长春地区负责老师：<br>颜老师
+                                18902175721</p>
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 1"
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type A"
                      data-wow-delay=".1s">
 
                     <article class="thumbnail thumbnail-classic thumbnail-md">
-                        <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-6-420x350.jpg" alt=""
+                        <div class="thumbnail-classic-figure"><img src="images/customized/Nanjing.png" alt=""
                                                                    width="420" height="350"/>
                         </div>
                         <div class="thumbnail-classic-caption">
-                            <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
                                                                          href="images/grid-gallery-6-1200x800-original.jpg"
                                                                          data-lightgallery="item"><img
                                     src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350"/></a>
-                                <h5 class="thumbnail-classic-title"><a href="#">MPlanner</a></h5>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
                             </div>
-                            <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features
-                                with great UI that you won’t find anywhere else.</p>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">南京地区负责老师：<br>张老师
+                                19822045567</p>
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2"
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type H"
                      data-wow-delay=".2s">
 
                     <article class="thumbnail thumbnail-classic thumbnail-md">
-                        <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-7-420x350.jpg" alt=""
+                        <div class="thumbnail-classic-figure"><img src="images/customized/Wuhan.png" alt=""
                                                                    width="420" height="350"/>
                         </div>
                         <div class="thumbnail-classic-caption">
-                            <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
                                                                          href="images/grid-gallery-7-1200x800-original.jpg"
                                                                          data-lightgallery="item"><img
                                     src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350"/></a>
-                                <h5 class="thumbnail-classic-title"><a href="#">Alice Messenger</a></h5>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
                             </div>
-                            <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features
-                                with great UI that you won’t find anywhere else.</p>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">武汉地区负责老师：<br>张老师
+                                19822045567</p>
                         </div>
                     </article>
                 </div>
-                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3"
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type A"
                      data-wow-delay=".3s">
 
                     <article class="thumbnail thumbnail-classic thumbnail-md">
-                        <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-8-420x350.jpg" alt=""
+                        <div class="thumbnail-classic-figure"><img src="images/customized/Suzhou.png" alt=""
                                                                    width="420" height="350"/>
                         </div>
                         <div class="thumbnail-classic-caption">
-                            <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60"
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
                                                                          href="images/grid-gallery-8-1200x800-original.jpg"
                                                                          data-lightgallery="item"><img
                                     src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350"/></a>
-                                <h5 class="thumbnail-classic-title"><a href="#">WiseMoney</a></h5>
+                                <h6 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h6>
                             </div>
-                            <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features
-                                with great UI that you won’t find anywhere else.</p>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">苏州地区负责老师：<br>张老师
+                                19822045567</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type J"
+                     data-wow-delay=".3s">
+
+                    <article class="thumbnail thumbnail-classic thumbnail-md">
+                        <div class="thumbnail-classic-figure"><img src="images/customized/Shenzhen.png" alt=""
+                                                                   width="420" height="350"/>
+                        </div>
+                        <div class="thumbnail-classic-caption">
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
+                                                                         href="images/grid-gallery-8-1200x800-original.jpg"
+                                                                         data-lightgallery="item"><img
+                                    src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350"/></a>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
+                            </div>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">深圳地区负责老师：<br>张老师
+                                19822045567</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type J"
+                     data-wow-delay=".3s">
+
+                    <article class="thumbnail thumbnail-classic thumbnail-md">
+                        <div class="thumbnail-classic-figure"><img src="images/customized/Guangzhou.png" alt=""
+                                                                   width="420" height="350"/>
+                        </div>
+                        <div class="thumbnail-classic-caption">
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
+                                                                         href="images/grid-gallery-8-1200x800-original.jpg"
+                                                                         data-lightgallery="item"><img
+                                    src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350"/></a>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
+                            </div>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">广州地区负责老师：<br>刘老师
+                                17316020163</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft"
+                     data-filter="Type 3 Type 4 Type 5 Type 6 Type 7 Type 8 Type 9 Type A Type B Type C
+                     Type D Type E Type F Type G Type H Type I Type J Type K Type L Type M Type N Type O Type P
+                     Type Q Type R Type S Type T Type U Type V Type W Type X Type Y Type Z"
+                     data-wow-delay=".3s">
+
+                    <article class="thumbnail thumbnail-classic thumbnail-md">
+                        <div class="thumbnail-classic-figure"><img src="images/customized/other_cities.png" alt=""
+                                                                   width="420" height="350"/>
+                        </div>
+                        <div class="thumbnail-classic-caption">
+                            <div class="thumbnail-classic-title-wrap"><a class="icon fa fa-wechat"
+                                                                         style="color: #1a4eff;"
+                                                                         href="images/grid-gallery-8-1200x800-original.jpg"
+                                                                         data-lightgallery="item"><img
+                                    src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350"/></a>
+                                <h5 class="thumbnail-classic-title"><a href="#jumpToContact">您也可以通过添加微信号<br>与我们联系</a>
+                                </h5>
+                            </div>
+                            <p class="thumbnail-classic-text" style="font-size: 20px;">负责老师：<br>张老师
+                                19822045567</p>
                         </div>
                     </article>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -414,14 +582,14 @@
     <section class="section section-sm bg-default">
         <div class="container">
             <div class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left">
-                <div class="col-md-6 col-lg-5 col-xl-4 text-center"><a class="text-img" href="#">
+                <div class="col-md-6 col-lg-5 col-xl-4 text-center"><a class="text-img" href="#jumpToContact">
                     <div id="particles-js"></div>
                     <span class="counter">12</span></a></div>
                 <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
                     <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
                         <h3 class="title-decoration-lines-left">年专注<br>提供优质家教服务</h3>
                         <p class="text-gray-500">12年专注，只为成就每个孩子的未来。<br>一路走来，我们始终秉承初心，<br>以专业的态度甄选每一位教员，<br>以严谨的服务匹配每一次需求。
-                        </p><a class="button button-secondary button-pipaluk" href="#">Get in touch</a>
+                        </p><a class="button button-secondary button-pipaluk" href="#jumpToContact">联系我们</a>
                     </div>
                 </div>
                 <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
@@ -460,67 +628,56 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-xl-12 align-self-center">
-                    <div class="row row-30 justify-content-center">
-                        <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft"><a class="clients-classic"
-                                                                                           href="#"><img
-                                src="images/clients-9-270x117.png" alt="" width="270" height="117"/></a></div>
-                        <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".1s"><a
-                                class="clients-classic" href="#"><img src="images/clients-10-270x117.png" alt=""
-                                                                      width="270" height="117"/></a></div>
-                        <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".2s"><a
-                                class="clients-classic" href="#"><img src="images/clients-3-270x117.png" alt=""
-                                                                      width="270" height="117"/></a></div>
-                        <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".3s"><a
-                                class="clients-classic" href="#"><img src="images/clients-11-270x117.png" alt=""
-                                                                      width="270" height="117"/></a></div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
     <!-- Meet The Team-->
+    <!--
     <section class="section section-sm section-fluid bg-default" id="team">
         <div class="container-fluid">
             <h2>Meet The Team</h2>
             <div class="row row-sm row-30 justify-content-center">
                 <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight">
-                    <!-- Team Classic-->
-                    <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img
+
+                    <article class="team-classic team-classic-lg"><a class="team-classic-figure"
+                                                                     href="#jumpToContact"><img
                             src="images/team-11-420x424.jpg" alt="" width="420" height="424"/></a>
                         <div class="team-classic-caption">
-                            <h4 class="team-classic-name"><a href="#">Ryan Wilson</a></h4>
+                            <h4 class="team-classic-name"><a href="#jumpToContact">Ryan Wilson</a></h4>
                             <p class="team-classic-status">Director of Production</p>
                         </div>
                     </article>
                 </div>
                 <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".1s">
-                    <!-- Team Classic-->
-                    <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img
+
+                    <article class="team-classic team-classic-lg"><a class="team-classic-figure"
+                                                                     href="#jumpToContact"><img
                             src="images/team-12-420x424.jpg" alt="" width="420" height="424"/></a>
                         <div class="team-classic-caption">
-                            <h4 class="team-classic-name"><a href="#">Jill Peterson</a></h4>
+                            <h4 class="team-classic-name"><a href="#jumpToContact">Jill Peterson</a></h4>
                             <p class="team-classic-status">UI Designer</p>
                         </div>
                     </article>
                 </div>
                 <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".2s">
-                    <!-- Team Classic-->
-                    <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img
+
+                    <article class="team-classic team-classic-lg"><a class="team-classic-figure"
+                                                                     href="#jumpToContact"><img
                             src="images/team-13-420x424.jpg" alt="" width="420" height="424"/></a>
                         <div class="team-classic-caption">
-                            <h4 class="team-classic-name"><a href="#">Sam Robinson</a></h4>
+                            <h4 class="team-classic-name"><a href="#jumpToContact">Sam Robinson</a></h4>
                             <p class="team-classic-status">Senior Developer</p>
                         </div>
                     </article>
                 </div>
                 <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".3s">
-                    <!-- Team Classic-->
-                    <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img
+
+                    <article class="team-classic team-classic-lg"><a class="team-classic-figure"
+                                                                     href="#jumpToContact"><img
                             src="images/team-14-420x424.jpg" alt="" width="420" height="424"/></a>
                         <div class="team-classic-caption">
-                            <h4 class="team-classic-name"><a href="#">Mary Lee</a></h4>
+                            <h4 class="team-classic-name"><a href="#jumpToContact">Mary Lee</a></h4>
                             <p class="team-classic-status">Software Developer</p>
                         </div>
                     </article>
@@ -528,78 +685,82 @@
             </div>
         </div>
     </section>
+    -->
 
-    <!-- You dream — we embody-->
-    <section class="section section-sm bg-default text-md-left">
+    <!-- develop history -->
+    <section class="section section-sm bg-default text-md-left" id="develop history">
         <div class="container">
             <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
                 <div class="col-lg-6 col-xl-5 wow fadeInLeft">
-                    <h2>Get More With Us</h2>
+                    <h1>平台发展历程</h1>
                     <!-- Bootstrap tabs-->
                     <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left"
                          id="tabs-6">
                         <!-- Nav tabs-->
                         <ul class="nav nav-tabs">
-                            <li class="nav-item" role="presentation"><a class="nav-link nav-link-big active"
+                            <li class="nav-item" role="presentation"><a class="nav-link nav-link-small active"
                                                                         href="#tabs-6-1" data-toggle="tab">01</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-2"
+                            <li class="nav-item" role="presentation"><a class="nav-link nav-link-small" href="#tabs-6-2"
                                                                         data-toggle="tab">02</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-3"
+                            <li class="nav-item" role="presentation"><a class="nav-link nav-link-small" href="#tabs-6-3"
                                                                         data-toggle="tab">03</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4"
+                            <li class="nav-item" role="presentation"><a class="nav-link nav-link-small" href="#tabs-6-4"
                                                                         data-toggle="tab">04</a></li>
                         </ul>
                         <!-- Tab panes-->
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="tabs-6-1">
-                                <h5 class="font-weight-normal">FREE APPS</h5>
-                                <p>We regularly upload new free apps to our website, which is fully accessible to our
-                                    clients and subscribers. You can also find out about free apps in our blog.</p>
+                                <h2 class="font-weight-normal">2013年</h2>
+                                <h3 class="font-weight-normal">北京大学生家教联盟成立</h3>
                                 <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk"
-                                                                      href="#modalCta" data-toggle="modal">Get in
-                                    touch</a><a class="button button-default-outline button-wapasha" href="#">Learn
-                                    More</a></div>
+                                                                      href="#jumpToContact"
+                                                                      data-toggle="modal">联系我们</a><a
+                                        class="button button-default-outline button-wapasha"
+                                        href="#jumpToContact">了解更多</a></div>
                             </div>
                             <div class="tab-pane fade" id="tabs-6-2">
-                                <h5 class="font-weight-normal">GET SOCIAL</h5>
-                                <p>Every app we develop has built-in social support that allows you to stay connected to
-                                    your accounts on Facebook, Instagram, Twitter and other networks.</p>
+                                <h2 class="font-weight-normal">2020年4月</h2>
+                                <h3 class="font-weight-normal">公司在北京成立</h3>
                                 <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk"
-                                                                      href="#modalCta" data-toggle="modal">Get in
-                                    touch</a><a class="button button-default-outline button-wapasha" href="#">Learn
-                                    More</a></div>
+                                                                      href="#jumpToContact">联系我们</a><a
+                                        class="button button-default-outline button-wapasha"
+                                        href="#jumpToContact">了解更多</a></div>
                             </div>
                             <div class="tab-pane fade" id="tabs-6-3">
-                                <h5 class="font-weight-normal">CUSTOMER SERVICE</h5>
-                                <p>Every customer of RatherApp can get access to our friendly and qualified 24/7 support
-                                    via chat or phone. Fell free to ask us any question!</p>
+                                <h2 class="font-weight-normal">2020年</h2>
+                                <h3 class="font-weight-normal">微信小程序“家教预约平台”上线<br>全国业务陆续开展</h3>
                                 <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk"
-                                                                      href="#modalCta" data-toggle="modal">Get in
-                                    touch</a><a class="button button-default-outline button-wapasha" href="#">Learn
-                                    More</a></div>
+                                                                      href="#jumpToContact"
+                                                                      data-toggle="modal">联系我们</a><a
+                                        class="button button-default-outline button-wapasha"
+                                        href="#jumpToContact">了解更多</a></div>
                             </div>
                             <div class="tab-pane fade" id="tabs-6-4">
-                                <h5 class="font-weight-normal">GREAT USABILITY</h5>
-                                <p>All our apps are designed to have great usability in order to easily operate our
-                                    applications. That is why our software has high ratings and lots of awards.</p>
+                                <h2 class="font-weight-normal">2022年</h2>
+                                <h3 class="font-weight-normal">天津公司成立<br>各大城市持续发展业务</h3>
                                 <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk"
-                                                                      href="#modalCta" data-toggle="modal">Get in
-                                    touch</a><a class="button button-default-outline button-wapasha" href="#">Learn
-                                    More</a></div>
+                                                                      href="#jumpToContact"
+                                                                      data-toggle="modal">联系我们</a><a
+                                        class="button button-default-outline button-wapasha"
+                                        href="#jumpToContact">了解更多</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay=".1s">
                     <div class="owl-carousel owl-style-1" data-items="2" data-stage-padding="0" data-loop="true"
-                         data-margin="0" data-mouse-drag="true" data-autoplay="true"><a class="box-device" href="#"><img
-                            src="images/index-4-313x580.png" alt="" width="313" height="580"/></a><a class="box-device"
-                                                                                                     href="#"><img
-                            src="images/index-5-313x580.png" alt="" width="313" height="580"/></a><a class="box-device"
-                                                                                                     href="#"><img
-                            src="images/index-4-313x580.png" alt="" width="313" height="580"/></a><a class="box-device"
-                                                                                                     href="#"><img
-                            src="images/index-5-313x580.png" alt="" width="313" height="580"/></a></div>
+                         data-margin="0" data-mouse-drag="true" data-autoplay="true"><a class="box-device"
+                                                                                        href="#jumpToContact"><img
+                            src="images/customized/develop_history_1.jpg" alt="" width="313" height="580"/></a><a
+                            class="box-device"
+                            href="#jumpToContact"><img
+                            src="images/customized/develop_history_2.jpg" alt="" width="313" height="580"/></a><a
+                            class="box-device"
+                            href="#jumpToContact"><img
+                            src="images/customized/develop_history_3.webp" alt="" width="313" height="580"/></a><a
+                            class="box-device"
+                            href="#jumpToContact"><img
+                            src="images/customized/develop_history_4.webp" alt="" width="313" height="580"/></a></div>
                 </div>
             </div>
         </div>
@@ -614,9 +775,10 @@
                     <!-- Quote Modern-->
                     <article class="quote-modern quote-modern-custom">
                         <div class="unit unit-spacing-md align-items-center">
-                            <div class="unit-left"><a class="quote-modern-figure" href="#"><span class="icon fa fa-user-circle" style="font-size: 70px;"></span></a></div>
+                            <div class="unit-left"><a class="quote-modern-figure" href="#jumpToContact"><span
+                                    class="icon fa fa-user-circle" style="font-size: 70px;"></span></a></div>
                             <div class="unit-body">
-                                <h4 class="quote-modern-cite"><a href="#">汪同学</a></h4>
+                                <h4 class="quote-modern-cite"><a href="#jumpToContact">汪同学</a></h4>
                                 <p class="quote-modern-status">反馈日期：2024年11月29日<br>辅导科目：高三数学</p>
                             </div>
                         </div>
@@ -634,9 +796,12 @@
                     <!-- Quote Modern-->
                     <article class="quote-modern quote-modern-custom">
                         <div class="unit unit-spacing-md align-items-center">
-                            <div class="unit-left"><a class="quote-modern-figure" href="#"><span class="icon fa fa-user" style="font-size: 70px;"></span></a></div>
+                            <div class="unit-left"><a class="quote-modern-figure" href="#jumpToContact"><span
+                                    class="icon fa fa-user"
+                                    style="font-size: 70px;"></span></a>
+                            </div>
                             <div class="unit-body">
-                                <h4 class="quote-modern-cite"><a href="#">张女士</a></h4>
+                                <h4 class="quote-modern-cite"><a href="#jumpToContact">张女士</a></h4>
                                 <p class="quote-modern-status">反馈日期：2024年12月5日<br>辅导科目：初二物理</p>
                             </div>
                         </div>
@@ -656,9 +821,10 @@
                     <!-- Quote Modern-->
                     <article class="quote-modern quote-modern-custom">
                         <div class="unit unit-spacing-md align-items-center">
-                            <div class="unit-left"><a class="quote-modern-figure" href="#"><span class="icon fa fa-user-circle" style="font-size: 70px;"></span></a></div>
+                            <div class="unit-left"><a class="quote-modern-figure" href="#jumpToContact"><span
+                                    class="icon fa fa-user-circle" style="font-size: 70px;"></span></a></div>
                             <div class="unit-body">
-                                <h4 class="quote-modern-cite"><a href="#">陈先生</a></h4>
+                                <h4 class="quote-modern-cite"><a href="#jumpToContact">陈先生</a></h4>
                                 <p class="quote-modern-status">反馈日期：2024年11月25日<br>辅导科目：TOFEL英语</p>
                             </div>
                         </div>
@@ -675,125 +841,50 @@
         </div>
     </section>
 
-    <!-- Pricing-->
-    <section class="section section-sm section-bottom-70 section-fluid bg-default">
-        <div class="container">
-            <h2>Pricing</h2>
-            <div class="row row-30 justify-content-center">
-                <div class="col-md-6 col-lg-5 col-xl-4">
-                    <div class="box-pricing box-pricing-black">
-                        <div class="box-pricing-body">
-                            <h5 class="box-pricing-title">basic</h5>
-                            <h3 class="box-pricing-price">$500.00</h3>
-                            <div class="box-pricing-time">starting at</div>
-                            <div class="box-pricing-divider">
-                                <div class="divider"></div>
-                                <span>Basic</span>
-                            </div>
-                            <ul class="box-pricing-list">
-                                <li class="active">Concept development</li>
-                                <li class="active">UI design</li>
-                                <li>Configuration management</li>
-                                <li>Software quality assurance</li>
-                                <li>App integration</li>
-                            </ul>
-                        </div>
-                        <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4" href="#">Get
-                            started</a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-5 col-xl-4">
-                    <div class="box-pricing box-pricing-black box-pricing-popular">
-                        <div class="box-pricing-body">
-                            <h5 class="box-pricing-title">Optimal</h5>
-                            <h3 class="box-pricing-price">$800.00</h3>
-                            <div class="box-pricing-time">starting at</div>
-                            <div class="box-pricing-divider">
-                                <div class="divider"></div>
-                                <span>Optimal</span>
-                            </div>
-                            <ul class="box-pricing-list">
-                                <li class="active">Concept development</li>
-                                <li class="active">UI design</li>
-                                <li class="active">Configuration management</li>
-                                <li class="active">Software quality assurance</li>
-                                <li>App integration</li>
-                            </ul>
-                        </div>
-                        <div class="box-pricing-button"><a class="button button-lg button-block button-primary"
-                                                           href="#">Get started</a></div>
-                        <div class="box-pricing-badge">popular</div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-5 col-xl-4">
-                    <div class="box-pricing box-pricing-black">
-                        <div class="box-pricing-body">
-                            <h5 class="box-pricing-title">Ultimate</h5>
-                            <h3 class="box-pricing-price">$1200.00</h3>
-                            <div class="box-pricing-time">starting at</div>
-                            <div class="box-pricing-divider">
-                                <div class="divider"></div>
-                                <span>Ultimate</span>
-                            </div>
-                            <ul class="box-pricing-list">
-                                <li class="active">Concept development</li>
-                                <li class="active">UI design</li>
-                                <li class="active">Configuration management</li>
-                                <li class="active">Software quality assurance</li>
-                                <li class="active">App integration</li>
-                            </ul>
-                        </div>
-                        <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4" href="#">Get
-                            started</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Latest blog posts-->
+    <!--
     <section class="section section-sm bg-default" id="news">
         <div class="container">
             <h2>Latest blog posts</h2>
             <div class="row row-45">
                 <div class="col-sm-6 col-lg-4 wow fadeInLeft">
-                    <!-- Post Modern-->
-                    <article class="post post-modern"><a class="post-modern-figure" href="#"><img
+
+                    <article class="post post-modern"><a class="post-modern-figure" href="#jumpToContact"><img
                             src="images/post-10-370x307.jpg" alt="" width="370" height="307"/>
                         <div class="post-modern-time">
                             <time datetime="2019-07-04"><span class="post-modern-time-month">07</span><span
                                     class="post-modern-time-number">04</span></time>
                         </div>
                     </a>
-                        <h4 class="post-modern-title"><a href="#">Benefits of Async/Await</a></h4>
+                        <h4 class="post-modern-title"><a href="#jumpToContact">Benefits of Async/Await</a></h4>
                         <p class="post-modern-text">Asynchronous functions are a good and bad thing in JavaScript. The
                             good side is that asynchronous functions are non-blocking and...</p>
                     </article>
                 </div>
                 <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".1s">
-                    <!-- Post Modern-->
-                    <article class="post post-modern"><a class="post-modern-figure" href="#"><img
+
+                    <article class="post post-modern"><a class="post-modern-figure" href="#jumpToContact"><img
                             src="images/post-11-370x307.jpg" alt="" width="370" height="307"/>
                         <div class="post-modern-time">
                             <time datetime="2019-07-17"><span class="post-modern-time-month">07</span><span
                                     class="post-modern-time-number">17</span></time>
                         </div>
                     </a>
-                        <h4 class="post-modern-title"><a href="#">Key Considerations of iPaaS</a></h4>
+                        <h4 class="post-modern-title"><a href="#jumpToContact">Key Considerations of iPaaS</a></h4>
                         <p class="post-modern-text">Digital transformation requires cloud appropriate adoption, legacy
                             IT systems modernization, and Agile-based methodologies for faster...</p>
                     </article>
                 </div>
                 <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
-                    <!-- Post Modern-->
-                    <article class="post post-modern"><a class="post-modern-figure" href="#"><img
+                    <article class="post post-modern"><a class="post-modern-figure" href="#jumpToContact"><img
                             src="images/post-12-370x307.jpg" alt="" width="370" height="307"/>
                         <div class="post-modern-time">
                             <time datetime="2019-07-22"><span class="post-modern-time-month">07</span><span
                                     class="post-modern-time-number">22</span></time>
                         </div>
                     </a>
-                        <h4 class="post-modern-title"><a href="#">Never Stop Optimizing Your Code</a></h4>
+                        <h4 class="post-modern-title"><a href="#jumpToContact">Never Stop Optimizing Your Code</a></h4>
                         <p class="post-modern-text">In this tutorial, we will discuss the Hibernate Query Language. HQL
                             is an object-oriented query language. Hibernate Query...</p>
                     </article>
@@ -801,27 +892,22 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- Contact information-->
-    <section class="section section-sm bg-default">
+    <section class="section section-sm bg-default" id="jumpToContact">
         <div class="container">
             <div class="row row-30 justify-content-center">
                 <div class="col-sm-8 col-md-6 col-lg-4">
                     <article class="box-contacts">
                         <div class="box-contacts-body">
-                            <div class="box-contacts-icon fl-bigmug-line-cellphone55"></div>
+                            <div>
+                                <img src="images/customized/wechat_official_account_qrcode.png" alt=""
+                                     style="margin: 25px auto 0;"/>
+                            </div>
                             <div class="box-contacts-decor"></div>
-                            <p class="box-contacts-link"><a href="tel:#">+1 323-913-4688</a></p>
-                            <p class="box-contacts-link"><a href="tel:#">+1 323-888-4554</a></p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-sm-8 col-md-6 col-lg-4">
-                    <article class="box-contacts">
-                        <div class="box-contacts-body">
-                            <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-                            <div class="box-contacts-decor"></div>
-                            <p class="box-contacts-link"><a href="#">4730 Crystal Springs Dr, Los Angeles, CA 90027</a>
+                            <p class="box-contacts-link" style="margin-bottom: 25px;"><a
+                                    href="#jumpToContact">扫码进入<br>家教预约平台<br>微信公众号</a>
                             </p>
                         </div>
                     </article>
@@ -829,10 +915,36 @@
                 <div class="col-sm-8 col-md-6 col-lg-4">
                     <article class="box-contacts">
                         <div class="box-contacts-body">
-                            <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
+                            <div>
+                                <img src="images/customized/logo.jpg" alt=""
+                                     style="margin: 42px 10px 22px; width: 90%;"/>
+                            </div>
                             <div class="box-contacts-decor"></div>
-                            <p class="box-contacts-link"><a href="mailto:#">mail@demolink.org</a></p>
-                            <p class="box-contacts-link"><a href="mailto:#">info@demolink.org</a></p>
+                            <p class="box-contacts-link" style="margin-bottom: 5px;"><a href="#jumpToContact">
+                                联系我们(微信同号)</a>
+                            </p>
+                            <p class="box-contacts-link" style="font-size: 16px"><a href="#jumpToContact">
+                                赵老师(北京家长请家教) 13126865796<br>
+                                洪老师(北京教员做家教) 13391604565<br>
+                                刘老师(商务合作) 13381331289<br>
+                                颜老师(天津 长春) 18902175721<br>
+                                刘老师(广州 合肥) 17316020163<br>
+                                马老师(济南) 15508697965<br>
+                                张老师(武汉 南京 深圳 苏州) 19822045567<br></a>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-8 col-md-6 col-lg-4">
+                    <article class="box-contacts">
+                        <div class="box-contacts-body">
+                            <div>
+                                <img src="images/customized/wechat_mini-program_qrcode.png" alt=""
+                                     style="margin: 25px auto 0;"/>
+                            </div>
+                            <div class="box-contacts-decor"></div>
+                            <p class="box-contacts-link"><a
+                                    href="#jumpToContact">扫码进入<br>家教预约平台<br>微信小程序</a></p>
                         </div>
                     </article>
                 </div>
@@ -847,27 +959,19 @@
             <div class="container-fluid">
                 <div class="footer-minimal-inset oh">
                     <ul class="footer-list-category-2">
-                        <li><a href="#">优质高效</a></li>
-                        <li><a href="#">至精至诚</a></li>
-                        <li><a href="#">匠心独运</a></li>
-                        <li><a href="#">有口皆碑</a></li>
-                        <li><a href="#">臻于至善</a></li>
+                        <li><a href="#jumpToContact">优质高效</a></li>
+                        <li><a href="#jumpToContact">至精至诚</a></li>
+                        <li><a href="#jumpToContact">匠心独运</a></li>
+                        <li><a href="#jumpToContact">有口皆碑</a></li>
+                        <li><a href="#jumpToContact">臻于至善</a></li>
                     </ul>
                 </div>
                 <div class="footer-minimal-bottom-panel text-sm-left">
                     <div class="row row-10 align-items-md-center">
                         <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
-                            <div>
-                                <ul class="list-inline rd-navbar-share-list style"
-                                    style="padding-left: 150px  !important; padding-right: 150px  !important;">
-                                    <li class="rd-navbar-share-list-item-for-footer">
-                                        <img src="./images/customized/wechat_official.jpg" alt=""
-                                        />
-                                    </li>
-                                    <li class="rd-navbar-share-list-item-for-footer">
-                                        <img src="./images/customized/wechat_mini-program.png" alt=""/>
-                                    </li>
-                                </ul>
+                            <div style="font-family: Consolas, monospace;">
+                                商务合作 请联系刘老师 13381331289<p>
+                                网站问题 请联系夏老师 18854555545
                             </div>
                         </div>
 
@@ -886,53 +990,6 @@
         </div>
     </footer>
 
-    <div class="modal fade" id="modalCta" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4>Contact Us</h4>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">×</span></button>
-                </div>
-                <div class="modal-body">
-                    <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global"
-                          data-form-type="contact-modal" method="post" action="bat/rd-mailform.php">
-                        <div class="row row-14 gutters-14">
-                            <div class="col-12">
-                                <div class="form-wrap">
-                                    <input class="form-input" id="contact-modal-name" type="text" name="name"
-                                           data-constraints="@Required">
-                                    <label class="form-label" for="contact-modal-name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-wrap">
-                                    <input class="form-input" id="contact-modal-email" type="email" name="email"
-                                           data-constraints="@Email @Required">
-                                    <label class="form-label" for="contact-modal-email">E-mail</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-wrap">
-                                    <input class="form-input" id="contact-modal-phone" type="text" name="phone"
-                                           data-constraints="@Numeric">
-                                    <label class="form-label" for="contact-modal-phone">Phone</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-wrap">
-                                    <label class="form-label" for="contact-modal-message">Message</label>
-                                    <textarea class="form-input textarea-lg" id="contact-modal-message" name="message"
-                                              data-constraints="@Required"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 <!-- Global Mailform Output-->
 <div class="snackbars" id="form-output-global"></div>
@@ -940,9 +997,17 @@
 <script src="js/core.min.js"></script>
 <script src="js/script.js"></script>
 <script>
+    const slide1 = document.getElementById("slide1");
     const slide2 = document.getElementById("slide2");
+    const slide3 = document.getElementById("slide3");
     slide2.playbackRate = 0.96; // 0.5 表示播放速度为原速的一半
-
+    slide1.currentTime = 1.1; // 设置视频从第一秒开始
+    [slide1, slide2, slide3].forEach(video => {
+        video.addEventListener('ended', () => {
+            console.log(`${video.id} 视频播放结束`);
+            video.pause(); // 确保视频暂停
+        });
+    })
 </script>
 <!-- coded by Himic-->
 </body>

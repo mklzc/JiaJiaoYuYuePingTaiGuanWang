@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+<body>
+    <h1>Spring Boot Hello World</h1>
+    <div id="message"></div>
+
+    <script>
+        // 使用原生 JavaScript 获取后端数据
+        fetch('http://localhost:8081/hello')
+            .then(response => response.text())  // 处理响应为文本
+            .then(data => {
+                // 将返回的数据显示在前端
+                document.getElementById('message').innerText = data;
+            })
+            .catch(error => {
+                // 捕获错误并显示在前端
+                console.error('111Error:', error);
+                document.getElementById('message').innerText = 'Error fetching data';
+            });
+    </script>
+</body>
+</html>
