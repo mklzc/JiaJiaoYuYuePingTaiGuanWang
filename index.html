@@ -64,7 +64,7 @@
                                 <div class="rd-navbar-brand"><a class="brand" href="index.html">
                                     <img
                                             src="images/customized/logo.jpg" alt="" height="50"/>
-                                     <img
+                                    <img
                                             src="images/customized/wechat_mini-program_qrcode.png" alt=""
                                             height="50"/>
                                 </a></a></div>
@@ -977,12 +977,11 @@
 
                         <div class="col-sm-6 col-md-4 order-sm-first">
                             <!-- Rights-->
-                            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>
-                                <span>家教预约平台</span>
+                            <p class="rights" style="font-size: 14px;"><span>&copy;&nbsp;</span><span class="copyright-year"></span>
+                                <span> All Rights Reserved. </span>
                             </p>
                         </div>
-                        <div class="col-sm-6 col-md-4 text-md-right"><span>All rights reserved.</span> <span>Design&nbsp;by&nbsp;<a
-                                href="https://github.com/Heartune">Heartune</a></span>
+                        <div class="col-sm-6 col-md-4 text-md-right"><span></span> <span>未来人类（北京）信息服务有限公司 版权所有</span>
                         </div>
                     </div>
                 </div>
@@ -1008,6 +1007,51 @@
             video.pause(); // 确保视频暂停
         });
     })
+    document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll(".rd-nav-item a");
+
+        navLinks.forEach(function (navLink) {
+            navLink.addEventListener("click", function (event) {
+                // 阻止默认锚点跳转
+                event.preventDefault();
+
+                // 获取目标锚点的 ID
+                const targetId = this.getAttribute("href").substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                // 滚动到目标区域
+                if (targetElement) {
+                    targetElement.scrollIntoView({behavior: "smooth"});
+                }
+
+                // 更新 active 类
+                navLinks.forEach(item => item.parentElement.classList.remove("active"));
+                this.parentElement.classList.add("active");
+            });
+        });
+
+        // 滚动监听
+        const sections = document.querySelectorAll("section");
+
+        window.addEventListener("scroll", function () {
+            let current = "";
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 50) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(li => {
+                li.parentElement.classList.remove("active");
+                if (li.getAttribute("href").substring(1) === current) {
+                    li.parentElement.classList.add("active");
+                }
+            });
+        });
+    });
+
 </script>
 <!-- coded by Himic-->
 </body>
